@@ -1,0 +1,29 @@
+/*Your CSS code goes below this line*/
+style
+h2 {font-family: sans-serif;
+    text-transform: uppercase;}
+button{width: 275px;
+padding:15px 20px;
+font-size: 25px;
+color: white;
+border: 0px;
+text-transform: uppercase;
+letter-spacing: 2px;
+border-radius: 10px;
+box-shadow:0 9px;
+cursor: pointer;}
+.button:active{transform: translateY(4px);
+box-shadow: 0 5px;}
+.one{background-color: lightgreen;}
+.one:hover {background-color: rgb(81, 133, 81);}
+.one:active{transform: translateY(4px);
+box-shadow: 0 5px;}
+.two{background-color: lightblue;}
+.two:active{transform: translateY(4px);
+box-shadow: 0 5px;}
+.two:hover{background-color: rgb(125, 168, 182);}
+.three{background-color: orange;}
+.three:hover{background-color: rgb(209, 147, 31);}
+.three:active{transform: translateY(4px);
+animation: 0.5s;
+box-shadow: 0 5px;}
